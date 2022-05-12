@@ -1,0 +1,32 @@
+Model 4 - Derived from model 3, independent variables with low correlation dropped (< 0.1 with dep. variable)                            
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  price   R-squared:                       0.882
+Model:                            OLS   Adj. R-squared:                  0.882
+Method:                 Least Squares   F-statistic:                 4.624e+04
+Date:                Wed, 11 May 2022   Prob (F-statistic):               0.00
+Time:                        17:03:32   Log-Likelihood:            -3.7275e+05
+No. Observations:               43152   AIC:                         7.455e+05
+Df Residuals:                   43144   BIC:                         7.456e+05
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const        3967.6788     12.235    324.286      0.000    3943.698    3991.660
+carat        3937.1631      8.214    479.345      0.000    3921.064    3953.262
+cut_Ideal     411.5113     15.455     26.626      0.000     381.219     441.803
+cut_Premium   150.8956     17.169      8.789      0.000     117.244     184.547
+color_E       366.2498     17.215     21.275      0.000     332.509     399.991
+clarity_I1  -4182.9762     56.606    -73.897      0.000   -4293.924   -4072.028
+clarity_SI2 -1453.5898     18.286    -79.491      0.000   -1489.431   -1417.749
+size           -7.5638      1.766     -4.283      0.000     -11.025      -4.103
+==============================================================================
+Omnibus:                    13704.692   Durbin-Watson:                   2.002
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           118552.950
+Skew:                           1.282   Prob(JB):                         0.00
+Kurtosis:                      10.705   Cond. No.                         38.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
